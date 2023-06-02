@@ -12,8 +12,8 @@ def index(request):
 def saludo(request):
     mensaje = """
     <h1>Bienvenidos</h1>
-    <h2>Flor Cerdán</h2>
-    <h3>Python....</h3>
+    <h2>Jairo Daniel Mendoza Torres</h2>
+    <h3>Python...</h3>
     """
     return HttpResponse(mensaje)
 
@@ -35,7 +35,7 @@ def rango(request):
 
 # Create your views here.
 layout = """
-<h1> Proyecto Web (LP3) | Flor Cerdán </h1>
+<h1> Proyecto Web (LP3) | Jairo Daniel Mendoza Torres | Clase </h1>
 <hr/>
 <ul>
 <li>
